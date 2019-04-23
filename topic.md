@@ -8,8 +8,11 @@
 
 + No Problem we Are excited to help you explore your options when it comes to maintaining and bettering your fit life. We aren't just gym freaks but we are life lovers. We utilize some aspects of japanese culture to make things more interesting.
 
+![This Is Our Lifestyle](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXT2DWvDoN1ONmBA7UX_S3iLex2DCeV19b6_vsJLH3AVE-hk59pg "This Is Our Lifestyle")
 
-+ [NYJapanFitness](index)
++ [NYJapanFitness](index.md)
+
+
 
 
 
