@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <metacharset="UTF-8">
-    <title>Temperature Converter</title>
+<metacharset="UTF-8">
+<title>Temperature Converter</title>
 </head>
 <body>
-    <h1>Temperature converter C to F</h1>
-    <p>This program will convert temperature from Celsius to Farenheit.</p>
-    <script>
-    var Ctemp, Ftemp, sEntry;
-    sEntry=prompt("Enter degrees C= ", "0");
-    Ctemp=parseFloat(sEntry);
-    Ftemp=1.8*Ctemp+32
-    </script>
+<h1>Temperature converter C to F</h1>
+<p>This program will convert temperature from Celsius to Farenheit.</p>
+<h2> style = "color : purple">
+<script>
+var Ctemp, Ftemp, sEntry;
+sEntry = prompt("Enter degrees C =", "0");
+Ctemp = parseFloat(sEntry);
+Ftemp = 1.8 * Ctemp + 32;
+document.write(Ctemp + "C =" + Ftemp + "F")    
+</script>
+</h2>
 </body>
 </html>
