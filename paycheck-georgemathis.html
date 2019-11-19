@@ -5,12 +5,14 @@
    <title>Pay Check</title>
  </head>
  <body>
+     <body style="background-color: #FFA500;">
      <h1>Pay Check Program</h1>
-     <p>Robert</p>
+     <p>George Mathis</p>
      <script>
          var fGross, fTax, fNet;
          alert("This program will calculate paycheck");
          var sName = prompt("Enter your name", "");
+         var sSocial = prompt("Enter your SSN", "");
          var fWage = parseFloat(prompt("Enter your wage", "0"));
          var fHours = parseFloat(prompt("Enter your hours", "0"));
          if(fHours <= 40) {
