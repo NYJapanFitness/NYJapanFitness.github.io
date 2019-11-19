@@ -5,6 +5,7 @@
 <title>George's Temperature Converter</title>
 </head>
 <body>
+<body style="background-color: #89CFF0;">  
 <h1>Temperature converter F to C</h1>
 <p>This program will convert temperature from Fahrenheit to Celsius.</p>
 <h2 style = "color : purple">
@@ -12,7 +13,7 @@
 var Ftemp, Ctemp, sEntry;
 sEntry = prompt("Enter degrees F =", "0");
 Ftemp = parseFloat(sEntry);
-Ctemp = 5/9 * Ftemp - 32;
+Ctemp = .55 * (Ftemp - 32);
 document.write(Ftemp + "F =" + Ctemp + "C")    
 </script>
 </h2>
