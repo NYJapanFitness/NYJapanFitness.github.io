@@ -10,14 +10,10 @@
      <p>George Mathis</p>
      <script>
          var fGross, fTax, fNet;
-         alert("This program will calculate paycheck");
+         alert("This program will calculate your paycheck");
          var sName = prompt("Enter your name", "");
-         document.write ("<h2> Name:"+ sName + "</h2>");
-         //get name
          var sSocial = prompt("Enter your SSN", "");
          var fWage = parseFloat(prompt("Enter your wage", "0"));
-         document.write ("<h2> Wage:"+ fWage + "</h2>");
-         //get wage
          var fHours = parseFloat(prompt("Enter your hours", "0"));
          if(fHours <= 40) {
              fGross = fWage * fHours;
@@ -25,6 +21,7 @@
          else {
              fGross = fHours * fWage + (fHours - 40) * 1.5 * fWage;
          }
+         document.write ("<h2> Name: " + sName + "</h2>");
          document.write("<h2> Gross = " + fGross + "</h2>");
          if(fGross <=1000) {
              fTax = fGross * 0.15;
@@ -32,8 +29,9 @@
          else {
              fTax = 150 + (fGross - 1000) * 0.25 ;
          }
-         document.write("<h2> Tax Withheld = " + fTax + "</h2>");
-         document.write ("<h2> NetPay:"+ fNetpay = fGross - fTax "</h2>" );
+         document.write ("<h2> Wage: " + fWage + "</h2>");
+         document.write("<h2> Tax Withheld= " + fTax + "</h2>");
+         document.write ("<h2> NetPay: " + fNet = fGross - fTax "</h2>" );
           
      </script>
   </body>
