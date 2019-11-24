@@ -13,9 +13,11 @@
          alert("This program will calculate paycheck");
          var sName = prompt("Enter your name", "");
          document.write ("<h2> Name:"+ sName + "</h2>");
+         //get name
          var sSocial = prompt("Enter your SSN", "");
          var fWage = parseFloat(prompt("Enter your wage", "0"));
          document.write ("<h2> Wage:"+ fWage + "</h2>");
+         //get wage
          var fHours = parseFloat(prompt("Enter your hours", "0"));
          if(fHours <= 40) {
              fGross = fWage * fHours;
