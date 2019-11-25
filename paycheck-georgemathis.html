@@ -21,18 +21,6 @@
          else {
              fGross = fHours * fWage + (fHours - 40) * 1.5 * fWage;
          }
-         document.write ("<h2> Name: " + sName + "</h2>");
-         document.write("<h2> Gross = " + fGross + "</h2>");
-         if(fGross <=1000) {
-             fTax = fGross * 0.15;
-         }
-         else {
-             fTax = 150 + (fGross - 1000) * 0.25 ;
-         }
-         document.write ("<h2> Wage: " + fWage + "</h2>");
-         document.write("<h2> Tax Withheld= " + fTax + "</h2>");
-         document.write ("<h2> NetPay: " + fNet = fGross - fTax "</h2>" );
-          
      </script>
   </body>
   </html>
