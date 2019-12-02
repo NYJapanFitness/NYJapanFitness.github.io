@@ -5,6 +5,7 @@
 ### [Casino Cash Out](casino-georgemathis.html)
 ### [Temp Converter F to C](temperature-georgemathis.html)
 ### [Check Program](paycheck-georgemathis.html)
+### [Average Age Checker] (AverageAge.html)
 
 Journey Beyond your Assumed Limits
  
