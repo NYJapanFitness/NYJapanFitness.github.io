@@ -10,11 +10,11 @@
      <script>
          var fGross, fTax, fNet;
          var sName = window.prompt("Enter your name", ""); 
-         document.write(" Name: " + sName);
          var sSocial = window.prompt("Enter your SSN", "");
          var fWage = parseFloat(prompt("Enter your wage", "0"));
-         document.write(" Wage: " + fWage);
          var fHours = parseFloat(prompt("Enter your hours", "0"));
+         document.write(" Name: " + sName);
+         document.write(" Wage: " + fWage);
          document.write(" Hours Worked: " + fHours);
          if(fHours < 40) {
          fGross = fWage * fHours;
