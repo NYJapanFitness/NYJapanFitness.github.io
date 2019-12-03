@@ -5,13 +5,13 @@
     <title>Guessing Game</title>
   </head>
   <body>
-     <h2>Pick a Number any Number</h2>
      <document.body.style.backgroundImage = "url('DSC_8036.JPG')">
+     <h2>Pick a Number any Number</h2>
      <script>
-     var sNumber, nAttempt, nCount=0;     
-     sNumber =Math.floor(Math.random()*10);       
+     var sNumber, nAttempt, nCount=0;          
      while(nCount < 4)
      { 
+     sNumber =Math.floor(Math.random()*10);
      nCount = nCount + 1;
      nAttempt = parseInt(window.prompt("Please Guess any number between 0 and 9 !!","")); 
      if(nAttempt == sNumber){
