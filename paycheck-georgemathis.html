@@ -11,26 +11,26 @@
          var fGross, fTax, fNet;
          alert("This program will calculate your paycheck");
          var sName = prompt("Enter your name", ""); 
-         document.write("<h2> Name: " + sName + "</h2>");
+         document.write( Name:  + sName );
          var sSocial = prompt("Enter your SSN", "");
          var fWage = parseFloat(prompt("Enter your wage", "0"));
-         document.write("<h2> Wage: " + fWage + "</h2>");
+         document.write("Wage:" + fWage );
          var fHours = parseFloat(prompt("Enter your hours", "0"));
-         document.write("<h2> Hours Worked: " + fHours + "</h2>");
+         document.write( "Hours Worked: " + fHours );
          if(fHours < 40) {
              fGross = fWage * fHours;
          }
          else {
          fGross = fHours * fWage + (fHours - 40) * 1.5 * fWage;
          }
-         document.write("<h2> Gross =$ " + fGross + "</h2>");
+         document.write("Gross =$ " + fGross );
          if(fGross < 1000) {
              fTax = fGross * 0.15;
          }
          else {
              fTax = 150 + (fGross - 1000) * 0.25 ;
          }
-         document.write(Tax Withheld =$ " + fTax);
+         document.write("Tax Withheld =$ " + fTax);
          document.write(NetPay:$ " + fNet = fGross - fTax);        
      </script>
   </body>
