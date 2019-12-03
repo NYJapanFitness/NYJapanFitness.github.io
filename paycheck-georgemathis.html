@@ -10,25 +10,28 @@
      <script>
          var fGross, fTax, fNet;
          alert("This program will calculate your paycheck");
-         var sName = prompt("Enter your name", ""); document.write ("<h2> Name: " + sName + "</h2>");
+         var sName = prompt("Enter your name", ""); 
+         document.write("<h2> Name: " + sName + "</h2>");
          var sSocial = prompt("Enter your SSN", "");
-         var fWage = parseFloat(prompt("Enter your wage", "0")); document.write ("<h2> Wage: " + fWage + "</h2>");
-         var fHours = parseFloat(prompt("Enter your hours", "0")); document.write ("<h2> Hours Worked: " + fHours + "</h2>");
-         if(fHours <= 40) {
+         var fWage = parseFloat(prompt("Enter your wage", "0"));
+         document.write("<h2> Wage: " + fWage + "</h2>");
+         var fHours = parseFloat(prompt("Enter your hours", "0"));
+         document.write("<h2> Hours Worked: " + fHours + "</h2>");
+         if(fHours < 40) {
              fGross = fWage * fHours;
          }
          else {
-             fGross = fHours * fWage + (fHours - 40) * 1.5 * fWage;
+         fGross = fHours * fWage + (fHours - 40) * 1.5 * fWage;
          }
-             document.write("<h2> Gross =$ " + fGross + "</h2>");
-         if(fGross <=1000) {
+         document.write("<h2> Gross =$ " + fGross + "</h2>");
+         if(fGross < 1000) {
              fTax = fGross * 0.15;
          }
          else {
              fTax = 150 + (fGross - 1000) * 0.25 ;
          }
-         document.write("<h2> Tax Withheld =$ " + fTax + "</h2>");
-         document.write("<h2> NetPay:$ " + fNet = fGross - fTax + "</h2>");        
+         document.write(Tax Withheld =$ " + fTax);
+         document.write(NetPay:$ " + fNet = fGross - fTax);        
      </script>
   </body>
   </html>
