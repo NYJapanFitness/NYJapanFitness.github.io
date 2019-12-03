@@ -13,8 +13,21 @@
 var Ftemp, Ctemp, sEntry;
 sEntry = prompt("Enter degrees F =", "0");
 Ftemp = parseFloat(sEntry);
-Ctemp = 5/9 * (Ftemp - 32);
+Ctemp = FtoC (Ftemp);
 document.write(Ftemp + "F =" + Ctemp + "C")    
+
+Ctemp = 100;
+Ftemp = CtoF(Ctemp);
+alert(Ftemp)
+
+FunctionFtoC(fF) {
+    var fC = 5/9 * (fF - 32);
+    return fC;
+}
+
+function CtoF(fC) {
+    return 9/5 * fC +32;
+}  
 </script>
 </h2>
 </body>
