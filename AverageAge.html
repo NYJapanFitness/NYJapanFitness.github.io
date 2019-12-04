@@ -7,19 +7,21 @@
    <body>
       <body style = "background-color: #FFA500;">
       <script>
-        var fAge, fTotal=0;
+        var fAge, fAgeTotal=0;
         var nCount=0;
         fAge = parseFloat(window.prompt("Enter age ! (-1 to end)",""));
-        while(fScore > 0)
+        while(fScore >= 0)
         {
-        fScoreTotal = fScoreTotal + fScore;
+        fAgeTotal = fAgeTotal + fAge;
         nCount = nCount + 1;
-        document.write("Age" + nCount + " = " + fScore + "<br>");
-        fScore = parseFloat(window.prompt("Enter age ! (-1 to end)",""));
+        document.write("Age" + nCount + " = " + fAge + "<br>");
+        fAge = parseFloat(window.prompt("Enter age ! (-1 to end)",""));
         }
         document.write("<h2>The average age = "
-        + fScoreTotal/nCount + "</h2>");
+        + fAgeTotal/nCount + "</h2>");
       </script>
       <p> by George Mathis</P>
    </body>
 </html>
+
+
