@@ -9,13 +9,13 @@
       <script>
         var fAge, fAgeTotal=0;
         var nCount=0;
-        fAge = parseFloat(window.prompt("Enter age ! (-1 to end)",""));
+        fAge = parseInt(window.prompt("Enter age ! (-1 to end)",""));
         while(fAge >= 0)
         {
         fAgeTotal = fAgeTotal + fAge;
         nCount = nCount + 1;
         document.write("Age" + nCount + " = " + fAge + "<br>");
-        fAge = parseFloat(window.prompt("Enter age ! (-1 to end)",""));
+        fAge = parseInt(window.prompt("Enter age ! (-1 to end)",""));
         }
         document.write("<h2>The average age = "
         + fAgeTotal/nCount + "</h2>");
