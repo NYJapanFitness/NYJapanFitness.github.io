@@ -5,7 +5,6 @@
     <title>Guessing Game</title>
   </head>
   <body>
-     <document.body.style.backgroundImage = "url('DSC_8036.JPG')">
      <h2>Pick a Number any Number</h2>
      <script>
      var sNumber, nAttempt, nCount=0;          
@@ -13,20 +12,19 @@
      { 
      sNumber =Math.floor(Math.random()*10);
      nCount = nCount + 1;
-     nAttempt = parseInt(window.prompt("Please Guess any number between 0 and 9 !!","")); 
+     nAttempt = parseInt(window.prompt("Please Guess any number between 0 and 9 !","")); 
      if(nAttempt == sNumber){
-     document.writeIn("<p> Number Guessed = " + nAttempt + " is correct. You win!(*_*)!</p> ");
+     document.writeIn("<p> Number Guessed = " + nAttempt + " is correct. You win!</p> ");
      break;
      }
      else if(nAttempt > sNumber)
      {
-     document.writeIn("<p> Number Guessed =   " + nAttempt + "  is TOO HIGH.</p>");
+     document.writeIn("<p> Number Guessed = " + nAttempt + " is TOO HIGH.</p>");
      alert("Oh My TOO HIGH Try Again");
      }
      else {
-     document.writeIn("<p> Number Guessed =   " + nAttempt + "  is TOO LOW.</p>");
+     document.writeIn("<p> Number Guessed = " + nAttempt + " is TOO LOW.</p>");
      alert("Ohh Noo TOO LOW Don't give up");
-     }
      }  
      if(nAttempt == sNumber){
      document.write("<p> Good Guess. Please Play Again! "); 
