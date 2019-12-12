@@ -7,6 +7,9 @@
 ### [Check Program](paycheck-georgemathis.html)
 ### [Average Age Checker](AverageAge.html)
 ### [Guessing Game](GuessGame.html)
+### [Casino Audit Program](CasinoTaxes.html)
+### [The CtoF and FtoC Program](CtoFandFtoC.html)
+
 Journey Beyond your Assumed Limits
  
 
