@@ -8,13 +8,13 @@
     <script type="text/javascript">
         var sChipscolor = new Array("Black", "Blue", "Red", "Green", "Gold");
         var nChipsvalue = new Array(5,20,50,100,500);
-            var nReceipts, nChipsum, nWinnings;
+        var nReceipts, nChipsum, nWinnings;
         document.write("<h1> Thank You for taking Chances please enter you receipt. </h1>");
-            nReceipts = getReceipts();
+        nReceipts = getReceipts();
         document.write("<h2>Receipts Total to = $ " + nReceipts + "</h2><hr>");
-            nChipssum = getChips(sChipscolor, nChipsvalue);
+        nChipssum = getChips(sChipscolor, nChipsvalue);
         document.write("<h2>Total Value of Chips Won = $ " + nChipsum + "</h2><hr>");
-            nWinnings = nChipssum - nReceipts;
+        nWinnings = nChipssum - nReceipts;
         displayresults(nChipssum, nWinnings);
        
         function getReceipts() {
