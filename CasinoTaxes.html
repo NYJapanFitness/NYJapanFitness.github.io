@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chip Counter and Taxes</h1>
+    <p>This program</p>
+    <script>  
+        var aChipsColor = new Array( "Black" , "Blue" , ”Red" , "Green" , "Gold" )
+        var aChipsValue = new Array( "5", "20", "50", "100", "500" );
+  var nTotalValue = 0, nTotalCount = 0, sEntry, nQty;
+                sEntry = prompt("Enter Quantity Black Chips ", "0")
+            nQty = parseInt(sEntry);
+        nTotalValue = nQty * 5 + nTotalValue;
+    nTotalCount = nTotalCount + nQty;
+    document.write("<h2 style= 'color:black'>Black Chips Qty = " + nQty + ", Value = $" + nQty * 5 + "<h2>");
+                sEntry = prompt("Enter Quantity Blue Chips", "0")
+            nQty = parseInt(sEntry);
+        nTotalValue = nQty * 20 + nTotalValue;
+    nTotalCount = nTotalCount +nQty;
+    document.write("<h2 style= 'color:blue'>Blue Chips Qty = " + nQty + ", Value = $" + nQty *20 +"<h2>");
+                sEntry = prompt("Enter Quantity Red Chip ", "0")
+            nQty = parseInt(sEntry);
+        nTotalValue = nQty * 50 + nTotalValue;
+    nTotalCount = nTotalCount + nQty;
+    document.write("<h2 style= 'color:red'>Red Chips Qty = " + nQty + ", Value = $" + nQty * 50 +"<h2>");
+                sEntry = prompt("Enter Quantity Green Chips ", "0")
+            nQty = parseInt(sEntry);
+        nTotalValue = nQty * 100 + nTotalValue;
+    nTotalCount = nTotalCount + nQty;
+    document.write("<h2 style= 'color:green'>Green Chips Qty = " + nQty + ", Value = $" + nQty * 100 +"<h2>");
+                sEntry = prompt("Enter Quantity Gold Chips ", "0")
+            nQty = parseInt(sEntry);
+        nTotalValue = nQty * 500 + nTotalValue;
+    nTotalCount = nTotalCount + nQty;
+    document.write("<h2 style= 'color:green'>Green Chips Qty = " + nQty + ", Value = $" + nQty * 500 +"<h2>");
+    document.write("<h1 style= 'color:orange'>All Chips Quantity = " + nTotalCount + "<br>All Chips Value = $" + nTotalValue +"<h1>");
+getReceipts
+    var nTotalValue = 0;
+    for(var n1 = 1; n1 < 100; nI++) {
+        var nEntry = parseint (window.prompt
+        ("Enter Receipt " + nI + " or Q + Quit",
+        ""));
+        if(isNaN(nEntry))
+            break;
+        if (nEntry<0) {
+            alert ("Receipts cannot be negative !\nTry Again...";)
+        }
+
+    
+
+        
